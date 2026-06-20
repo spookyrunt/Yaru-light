@@ -1,5 +1,9 @@
 # Yaru-light
 
+Yaru-light got rid of all dark panels from the Yaru theme.
+
+Tested under Ubuntu 26.04 LTS GNOME Shell 50.1
+
 ## Installation
 Place this theme under user directory `~/.local/share/themes/Yaru-light/` and enable the [User Themes](https://extensions.gnome.org/extension/19/user-themes/) extension to load it.
 
