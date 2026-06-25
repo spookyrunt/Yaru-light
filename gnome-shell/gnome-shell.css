@@ -5624,7 +5624,7 @@ StScrollBar {
   .pad-osd-window .button:insensitive {
     color: #222222; }
 
-// -----------------------------------------------
+/* ----------------------------------------------- */
 
 /* 1. Top Bar Custom (Solid White) */
 #panel {
