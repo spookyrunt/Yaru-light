@@ -9,6 +9,14 @@ Place this theme under user directory `~/.local/share/themes/Yaru-light/` and en
 
 Go to `Tweaks - Appearance - Shell - Yaru-light` and select it to apply the theme.
 
+### Quick download
+```bash
+mkdir -p ~/.local/share/themes/Yaru-light/
+curl -sL $(curl -s https://api.github.com/repos/spookyrunt/Yaru-light/releases/latest |
+  jq -r '.assets[0].browser_download_url') |
+  tar -xzv -C ~/.local/share/themes/Yaru-light/ --strip-components=1
+```
+
 ## Prerequisites
 
 [GNOME Tweaks](https://wiki.gnome.org/Apps/Tweaks) and [GNOME Extensions](https://apps.gnome.org/Extensions/) [Manager](https://mattjakeman.com/apps/extension-manager) are needed to manage user themes.
