@@ -5831,8 +5831,13 @@ StScrollBar {
 #dash .dash-item-container .overview-icon:hover,
 #dash .dash-item-container .overview-icon:focus,
 #dash .dash-item-container .overview-icon:selected {
+  background-color: transparent !important;
   color: #222222 !important;
   text-shadow: none !important;
+}
+
+.overview-icon-background {
+  background-color: transparent !important;
 }
 
 /* Dash App Icon Hover/Focus/Selected Background */
