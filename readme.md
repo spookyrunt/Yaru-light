@@ -2,7 +2,7 @@
 
 Yaru-light got rid of all dark panels from the Yaru theme.
 
-Tested under Ubuntu 26.04 LTS GNOME Shell 50.1
+Tested under `Ubuntu 26.04 LTS GNOME Shell 50.1` and `Fedora Silverblue GNOME 50.0`.
 
 ## Installation
 Place this theme under user directory `~/.local/share/themes/Yaru-light/` and enable the [User Themes](https://extensions.gnome.org/extension/19/user-themes/) extension to load it.
@@ -24,6 +24,8 @@ curl -sL $(curl -s https://api.github.com/repos/spookyrunt/Yaru-light/releases/l
 ```bash
 sudo apt install gnome-shell-extension-manager gnome-tweaks
 ```
+
+[Light Style](https://extensions.gnome.org/extension/6198/light-style/) can help cover extension elements missed by this theme, such as [Window List](https://extensions.gnome.org/extension/602/window-list/) on Fedora.
 
 ![](./1.png)
 ![](./2.png)
